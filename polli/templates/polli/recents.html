@@ -1,0 +1,11 @@
+{% if recents %}
+<ul>
+    {% for question in recents %}
+    <li>
+        <a href="polli/SEEES/{{ question.id }}/"> {{ question.question_text }}</a>
+    </li>
+    {% endfor %}
+</ul>
+    {% else %}
+    <p>non c'è nientor</p>
+{% endif %}
