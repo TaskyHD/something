@@ -8,7 +8,7 @@ def index(request):
     return  render(request,'polli/index.html',context);
 
 def scemo(request):
-    return HttpResponse("hello darkness my old friend")
+    return HttpResponse("hello darkness my old friend and FUCK YOU")
 
 def SEES(request,question_id):
     try:
